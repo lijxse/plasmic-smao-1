@@ -1,0 +1,84 @@
+.root {
+  display: block;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px;
+}
+.section {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: 8px;
+  top: 1px;
+  min-width: 0;
+  padding: 96px 24px;
+}
+.section > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.section > :global(.__wab_flex-container) > *,
+.section > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.section > :global(.__wab_flex-container) > picture > img,
+.section
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.h1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-bottom: 32px;
+  color: #00793b;
+  margin-top: calc(76px + 16px) !important;
+  background: #fff1b1;
+  min-width: 0;
+}
+.text__uxWwh {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-right: 0px;
+  padding-left: 0px;
+  min-width: 0;
+}
+.text__gkWov {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-right: 0px;
+  padding-left: 0px;
+  color: #c2c2c2;
+  min-width: 0;
+}
+.freeBox {
+  display: block;
+  position: absolute;
+  width: 102px;
+  height: 50px;
+  max-width: 100%;
+  left: 627px;
+  top: 919px;
+  z-index: 1;
+  flex-shrink: 0;
+  padding: 8px;
+}
